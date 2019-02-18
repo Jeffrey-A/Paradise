@@ -4,6 +4,149 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #ffe4bc;
+}
+
 img{
     width: 100%;
 }
+/* ##################
+   Navigation
+################## */
+
+#main-nav{
+    text-align: center;
+}
+
+#main-nav ul{
+    list-style: none;
+}
+
+#main-nav li{
+    margin-top: 15px;
+    border: 1px solid #000;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin: 15px 10px 0 10px;
+
+}
+
+#main-nav a{
+    text-decoration: none;
+    display: block;
+}
+
+/* ##################
+    welcome-section
+################## */
+
+main{
+    margin-top: 50px;
+}
+#welcome-section{
+    position: relative;
+}
+
+#welcome-section h1{
+    position: absolute;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    top: 40%;
+    left: 20%;
+}
+/* ##################
+    about-section
+################## */
+#about{
+    margin-top: 50px;
+}
+
+/* ##################
+    Location
+################## */
+#location{
+    text-align: center;
+
+}
+
+#location-text p{
+    padding-top: 10px;
+}
+
+
+/* ##################
+    FOOTER
+################## */
+
+#main-footer{
+    text-align: center;
+    color:#fff;
+    background-color:#333030;
+    padding: 10px 0;
+}
+
+#main-footer ul{
+    list-style: none;
+}
+.footer-items{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.footerlinks{ 
+    color: #d7d9dd;
+}
+
+.footerlinks:hover{
+    color: #fff;
+}
+/* ##################
+    ELEMENTS
+################## */
+.heading{
+    text-align: center;
+}
+
+
+
+.container{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.text-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(235, 85,38, .9);
+    color: #fff;
+}
+
+.button{
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px auto;
+    color: #fff;
+    background-color: #000;
+}
+
+/* ##################
+   MEDIA QUERIES
+################## */
+
+/* Tablets*/
+@media (min-width: 768px) { 
+
+
+ }
+
+ /*Desktops-laptops*/
+ @media (min-width: 992px) {
+
+
+  }
