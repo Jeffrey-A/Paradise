@@ -15,6 +15,12 @@ img{
    Navigation
 ################## */
 
+header{
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 #main-nav{
     text-align: center;
 }
@@ -29,12 +35,14 @@ img{
     padding: 10px 0;
     border-radius: 10px;
     margin: 15px 10px 0 10px;
+    background-color: #EB5526;
 
 }
 
 #main-nav a{
     text-decoration: none;
     display: block;
+    color: #ffff;
 }
 
 /* ##################
