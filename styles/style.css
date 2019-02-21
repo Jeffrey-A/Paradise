@@ -203,6 +203,10 @@ main{
     .div{
         flex: 1;
     }
+
+    .div img{
+        height: 100%;
+    }
    
 
  }
