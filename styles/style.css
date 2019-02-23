@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin:0;
     padding: 0;
@@ -5,7 +9,8 @@
 }
 
 body{
-    background-color: #ffe4bc;
+    /* background-color: #ffe4bc; */
+    background-color: #000;
 }
 
 img{
@@ -32,7 +37,7 @@ header{
 }
 
 #main-nav li{
-    margin-top: 15px;
+    
     border: 1px solid #000;
     padding: 10px 0;
     border-radius: 10px;
@@ -118,7 +123,13 @@ main{
     text-align: center;
 }
 
+#logo{
+    max-width: 100%;
+}
 
+#logo-container{
+    margin-left: 20px;
+}
 
 .container{
     margin-bottom: 50px;
@@ -145,21 +156,43 @@ main{
     background-color: #000;
 }
 
+.button:hover{
+    color: #EB5526;
+}
+
 /* ##################
    MEDIA QUERIES
 ################## */
 
 /* Tablets*/
 @media (min-width: 768px) { 
+    header{
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+    }
+    #main-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     #main-nav ul{
         flex-direction: row;
         justify-content: flex-end;
         margin-right:20px;
+        
+       
     }
+
 
     #main-nav li{
         background-color:#000;
+        margin: 0 10px;
+       
     }
+
+    
 
     #main-nav a:hover{
         color: #EB5526;
@@ -189,6 +222,7 @@ main{
         position: static;
         width: 100%;
         display: flex;
+        
     }
 
 
@@ -197,9 +231,11 @@ main{
         position:static;
         background-color: #fff;
         color: #000;
+        background-image: linear-gradient(to right top, #000000, #30181d, #5b282e, #89393a, #b84d42, #cc5542, #df5e40, #f2683d, #f06337, #ef5f32, #ed5a2c, #eb5526);
 
     }
 
+    
     .div{
         flex: 1;
     }
@@ -207,6 +243,8 @@ main{
     .div img{
         height: 100%;
     }
+
+  
    
 
  }
