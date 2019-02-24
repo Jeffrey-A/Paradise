@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/reservation.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <div id="logo-container"><img id="logo" src="../img/logo.png" alt=""></div>
+            <ul> 
+                <li class="nav-items"><a class="navlinks" href="index.html">Home</a></li>   
+                <li class="nav-items"><a class="navlinks" href="pages/about.html">About</a></li>
+                <li class="nav-items"><a class="navlinks" href="pages/menu.html">Menu</a></li>
+                <li class="nav-items"><a class="navlinks" href="pages/reservation.html">Reservations</a></li>
+                <li class="nav-items"><a class="navlinks" href="#location">Contact &amp;Location</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="reservation-page-welcome">
+            <h1>Reservations</h1>
+        </div>
+
+        <div  id="reservation-page-content">
+            <h2>Make a Reservation at Paradise</h2>
+            <form action="" method="post">
+
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Last Name">
+                <br>
+                <input type="email" placeholder="Email">
+                <input type="number" name="" id="" placeholder="Phone Number">
+                <br>
+                <label for="date">Date:</label>
+                <input type="date"  value="2019-02-28" name="date" id="date">
+
+                <label for="ocation">Ocation:</label>
+                <select name="" id="ocation">
+                    <option value="">Normal</option>
+                    <option value="">Birthday</option>
+                    <option value="">Celebration</option>
+                    <option value="">Date Night</option>
+                    <option value="">Business Meal</option>
+                </select>
+
+                <label for="num-people">Number of people</label>
+                <select name="" id="num-people">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6+</option>
+                </select>
+                <br>
+                <button type="submit">Reserve Table</button>
+                
+            </form>
+        </div>
+
+    </main>
+
+    <footer id="main-footer">
+        <ul>
+            <li class="footer-items"><a class="footerlinks" href="">Home</a></li> 
+            <li class="footer-items"><a class="footerlinks" href="">About</a></li>
+            <li class="footer-items"><a class="footerlinks" href="">Menu</a></li>
+            <li class="footer-items"><a class="footerlinks" href="">Reservations</a></li>
+            <li class="footer-items"><a class="footerlinks" href="">Contact &amp;Location</a></li>
+        </ul>
+        <p>&copy;Paradise 2019</p>
+    </footer>
+    
+</body>
+</html>

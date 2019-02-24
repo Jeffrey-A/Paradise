@@ -1,0 +1,23 @@
+#reservation-page-welcome{
+    height: 100vh;
+    background-image: url("../img/aboutPreview.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reservation-page-welcome h1{
+    color: #fff;
+    font-size: 4rem;
+    text-shadow: 5px 2px 5px #000;
+}
+
+#reservation-page-content{
+    width: 60%;
+    margin: 50px auto 50px auto;
+    background-color: #fff;
+    padding: 50px;
+}
+
