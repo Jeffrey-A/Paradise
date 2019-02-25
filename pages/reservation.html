@@ -28,13 +28,14 @@
         <div  id="reservation-page-content">
             <h2>Make a Reservation at Paradise</h2>
             <form action="" method="post">
-
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Last Name">
-                <br>
-                <input type="email" placeholder="Email">
-                <input type="number" name="" id="" placeholder="Phone Number">
-                <br>
+                
+                <input type="text" placeholder="Name" class="reservation-input">
+                <input type="text" placeholder="Last Name" class="reservation-input">
+                
+                <input type="email" placeholder="Email" class="reservation-input">
+                <input type="tel" name="" id="" class="reservation-input" placeholder="Phone Number">
+                    
+                
                 <label for="date">Date:</label>
                 <input type="date"  value="2019-02-28" name="date" id="date">
 
@@ -46,8 +47,9 @@
                     <option value="">Date Night</option>
                     <option value="">Business Meal</option>
                 </select>
-
-                <label for="num-people">Number of people</label>
+                
+                
+                <label for="num-people">Number of people:</label>
                 <select name="" id="num-people">
                     <option value="">1</option>
                     <option value="">2</option>
@@ -56,8 +58,8 @@
                     <option value="">5</option>
                     <option value="">6+</option>
                 </select>
-                <br>
-                <button type="submit">Reserve Table</button>
+                
+                <button id="reservation-button"type="submit">Reserve Table</button>
                 
             </form>
         </div>

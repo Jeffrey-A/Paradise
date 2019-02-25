@@ -15,9 +15,64 @@
 }
 
 #reservation-page-content{
-    width: 60%;
+    width: 70%;
     margin: 50px auto 50px auto;
     background-color: #fff;
     padding: 50px;
+   
+    
 }
+
+#reservation-page-content h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.reservation-input{
+    padding: 5px;
+    margin: 0 10px 10px 0;
+   
+}
+
+.reservation-input:focus{
+    outline-color: #EB5526;
+}
+
+#reservation-button{
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+    margin-top: 10px;
+    width: 178.8px;
+}
+
+#reservation-button:hover{
+    color: #EB5526;
+    
+}
+
+#date{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+#ocation, #num-people{
+    padding: 5px;
+    margin-right: 10px;
+}
+
+
+
+
+#main-footer{
+    border-top: 1px solid #EB5526;
+}
+
+@media (max-width:768px){
+    
+}
+
 
