@@ -1,0 +1,40 @@
+html{
+    color: #fff;
+}
+
+.category{
+    width: 40%;
+    height: 250px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 10px 50px 50px;
+    color: #000;
+    background-image: linear-gradient(to right top, #000000, #30181d, #5b282e, #89393a, #b84d42, #cc5542, #df5e40, #f2683d, #f06337, #ef5f32, #ed5a2c, #eb5526);
+    border-radius: 10px;
+}
+
+#lunch,
+#drinks{
+    background-image: linear-gradient(to left top, #000000, #30181d, #5b282e, #89393a, #b84d42, #cc5542, #df5e40, #f2683d, #f06337, #ef5f32, #ed5a2c, #eb5526);
+}
+
+.headings{
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+#menu-category-div{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.food-list{
+    list-style: none;
+    color: #fff;
+    padding-top: 20px;
+}
+

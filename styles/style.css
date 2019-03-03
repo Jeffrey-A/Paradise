@@ -105,6 +105,8 @@ main{
     color:#fff;
     background-color:#000;
     padding: 10px 0;
+    border-top: 1px solid #EB5526;
+    margin-top: 50px;
 }
 
 #main-footer ul{
