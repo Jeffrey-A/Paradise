@@ -80,9 +80,7 @@ main{
 /* ##################
     about-section
 ################## */
-#about{
-    margin-top: 50px;
-}
+
 
 /* ##################
     Location
@@ -227,6 +225,8 @@ main{
     .heading{
         border-bottom: 1px solid #000;
         display: inline-block;
+        font-size: 2.7rem;
+        margin-bottom: 15px;
     }
     #main-nav li{
         background-color:#000;
@@ -248,7 +248,7 @@ main{
 
     #about-image{
         width: 100%;
-        height: 100%;
+        
     }
 
     .title{
