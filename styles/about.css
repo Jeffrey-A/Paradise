@@ -16,6 +16,11 @@
     margin-bottom: 10px;
 }
 
+#about-page-content p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    word-spacing: 3px;
+}
 #main-footer{
     border-top: 1px solid #EB5526;
 }

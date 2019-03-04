@@ -24,16 +24,28 @@ header{
     background-color: #000;
     padding-top: 10px;
     padding-bottom: 20px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
 }
 
 #main-nav{
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 #main-nav ul{
     list-style: none;
     display: flex;
     flex-direction:column;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
 }
 
 #main-nav li{
@@ -56,9 +68,7 @@ header{
     welcome-section
 ################## */
 
-main{
-    margin-top: 50px;
-}
+
 .welcome-section{
     position: relative;
     background-image: url("../img/welcome.jpg");
@@ -168,6 +178,15 @@ main{
     margin-left: 20px;
 }
 
+#menu-icon-container{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#menu-icon-container img{
+max-width: 100%;
+}
+
 .container{
     margin-bottom: 50px;
     position: relative;
@@ -180,6 +199,8 @@ main{
     text-align: center;
     background-color: rgba(235, 85,38, .9);
     color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .button{
@@ -202,7 +223,7 @@ main{
 ################## */
 
 /* Tablets*/
-@media (min-width: 768px) { 
+@media (min-width: 821px) { 
     header{
         position: fixed;
         top: 0;
@@ -214,10 +235,16 @@ main{
         align-items: center;
         justify-content: space-between;
     }
+    #menu-icon-container{
+        display: none;
+    }
     #main-nav ul{
+        display: flex;
         flex-direction: row;
         justify-content: flex-end;
         margin-right:20px;
+        margin-top: 0;
+        
         
        
     }
@@ -269,7 +296,12 @@ main{
         background-color: #fff;
         color: #000;
         background-image: linear-gradient(to right top, #000000, #30181d, #5b282e, #89393a, #b84d42, #cc5542, #df5e40, #f2683d, #f06337, #ef5f32, #ed5a2c, #eb5526);
-        padding-top: 20px;
+        padding: 20px  50px 0 ;
+        
+    }
+
+    .text-container p,address{
+        font-size: 1.5rem;
     }
 
     
