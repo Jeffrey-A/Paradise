@@ -124,6 +124,28 @@ main{
 .footerlinks:hover{
     color: #fff;
 }
+
+.footer-links-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-links-container ul{
+    display: flex;
+    align-items: center;
+}
+.social-media-links-div {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.social-media-links-div img{
+    min-width: 100%;
+    display: block;
+
+}
 /* ##################
     ELEMENTS
 ################## */
