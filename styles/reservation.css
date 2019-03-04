@@ -8,11 +8,6 @@
     align-items: center;
 }
 
-#reservation-page-welcome h1{
-    color: #fff;
-    font-size: 4rem;
-    text-shadow: 5px 2px 5px #000;
-}
 
 #reservation-page-content{
     width: 70%;

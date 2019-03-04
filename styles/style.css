@@ -71,9 +71,10 @@ main{
     align-items: center;
 }
 
-#welcome-section h1{
+.title{
     color: #fff;
     text-shadow: 1px 1px 5px #000;
+    font-size: 3rem;
 
 }
 /* ##################
@@ -127,18 +128,25 @@ main{
 
 .footer-links-container{
     display: flex;
-    justify-content: space-between;
     padding: 20px;
+    
+    justify-content: space-between;
+
+
 }
 
 .footer-links-container ul{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    width: 50%;
 }
 .social-media-links-div {
     display: flex;
     align-items: center;
     margin-left: 20px;
+    width: 50%;
+    justify-content: flex-end;
+    
 }
 
 .social-media-links-div img{
@@ -239,7 +247,7 @@ main{
         height: 100%;
     }
 
-    #welcome-section h1{
+    .title{
         font-size: 3rem;
     }
 
@@ -269,7 +277,9 @@ main{
         height: 100%;
     }
 
-  
+    .footer-links-container ul{
+        flex-direction: row;
+    }
    
 
  }

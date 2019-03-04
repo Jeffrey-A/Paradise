@@ -8,11 +8,7 @@
     align-items: center;
 }
 
-#about-page-welcome h1{
-    color: #fff;
-    font-size: 4rem;
-    text-shadow: 5px 2px 5px #000;
-}
+
 
 #about-page-content{
     color: #fff;
@@ -31,9 +27,7 @@
 }
 
 @media (max-width: 768px){
-    #about-page-welcome h1{
-        font-size: 3rem;
-    }
+   
 
     #about-page-content{
         width: 90%;
