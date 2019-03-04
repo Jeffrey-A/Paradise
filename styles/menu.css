@@ -38,3 +38,13 @@ html{
     padding-top: 20px;
 }
 
+@media (max-width: 768px){
+    #menu-category-div{
+        flex-direction: column;
+    }
+
+    .category{
+        width: 100%;
+    }
+}
+
