@@ -1,11 +1,5 @@
-#reservation-page-welcome{
-    height: 100vh;
-    background-image: url("../img/aboutPreview.jpeg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#reservation-welcome{
+    background-image: url(../img/reservationPreview.jpeg);
 }
 
 

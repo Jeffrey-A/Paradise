@@ -59,7 +59,7 @@ header{
 main{
     margin-top: 50px;
 }
-#welcome-section{
+.welcome-section{
     position: relative;
     background-image: url("../img/welcome.jpg");
     background-size: cover;
@@ -159,6 +159,7 @@ main{
 ################## */
 .heading{
     text-align: center;
+    padding-top: 20px;
 }
 
 #logo{
@@ -223,7 +224,10 @@ main{
        
     }
 
-
+    .heading{
+        border-bottom: 1px solid #000;
+        display: inline-block;
+    }
     #main-nav li{
         background-color:#000;
         margin: 0 10px;
@@ -265,7 +269,7 @@ main{
         background-color: #fff;
         color: #000;
         background-image: linear-gradient(to right top, #000000, #30181d, #5b282e, #89393a, #b84d42, #cc5542, #df5e40, #f2683d, #f06337, #ef5f32, #ed5a2c, #eb5526);
-
+        padding-top: 20px;
     }
 
     
@@ -287,7 +291,7 @@ main{
  /*Desktops-laptops*/
  @media (min-width: 992px) {
 
-    #welcome-section h1{
+    .welcome-section h1{
         font-size: 4rem;
     }
 

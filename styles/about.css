@@ -1,11 +1,5 @@
-#about-page-welcome{
-    height: 100vh;
-    background-image: url("../img/aboutPreview.jpeg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#about-welcome{
+    background-image: url(../img/aboutPreview.jpeg);
 }
 
 
