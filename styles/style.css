@@ -30,11 +30,17 @@ header{
     top: 0;
 }
 
+.closeMenu{
+    color: #EB5526;
+    font-size: 1.5rem;
+}
+
 #main-nav{
     text-align: center;
     display: flex;
     justify-content: space-between;
-
+    /* flex-wrap: wrap; */
+    
 }
 
 #main-nav ul{
@@ -176,11 +182,15 @@ header{
 
 #logo-container{
     margin-left: 20px;
+    /* flex: 1; */
+    align-self: center;
 }
 
 #menu-icon-container{
     margin-left: 10px;
     margin-right: 20px;
+    align-self: center;
+    
 }
 
 #menu-icon-container img{
@@ -234,6 +244,7 @@ max-width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: nowrap;
     }
     #menu-icon-container{
         display: none;
@@ -246,6 +257,10 @@ max-width: 100%;
         margin-top: 0;
         
         
+       
+    }
+
+    #logo-container{
        
     }
 
