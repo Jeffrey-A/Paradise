@@ -39,6 +39,14 @@ html{
     padding-top: 20px;
 }
 
+#menu-category-div li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+
 @media (max-width: 768px){
     #menu-category-div{
         flex-direction: column;
