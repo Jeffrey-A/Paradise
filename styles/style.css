@@ -33,6 +33,8 @@ header{
 .closeMenu{
     color: #EB5526;
     font-size: 2.3rem;
+    border: 1px solid #EB5526;
+    padding: 2px 5px;
 }
 
 #main-nav{
