@@ -1,2 +1,2 @@
 # Paradise
-Restaurant's website in progress...
+ Elegant and completely responsive restaurant's website.
