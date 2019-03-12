@@ -38,11 +38,7 @@ header{
 }
 
 #main-nav{
-    text-align: center;
-   
-    /* flex-wrap: wrap; */
-   
-   
+    text-align: center; 
 }
 
 #imgs-main-nav{
@@ -351,6 +347,7 @@ max-width: 100%;
     .welcome-section h1{
         font-size: 4rem;
     }
+
 
 
 }

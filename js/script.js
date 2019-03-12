@@ -27,6 +27,4 @@ function expandMenu(){
 
 }
 
-
-
 $menuButton.click(expandMenu);
