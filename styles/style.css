@@ -282,11 +282,16 @@ max-width: 100%;
        
     }
 
-    
+    #main-nav .navlinks-active{
+        color: #EB5526;
+        text-decoration: underline;
+    }
 
     #main-nav a:hover{
         color: #EB5526;
+        text-decoration: underline;
     }
+    
 
     main{
         margin-top:0;
