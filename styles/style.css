@@ -34,6 +34,7 @@ img{
 .navbar-dark .navbar-toggler-icon {
     background-image: url("../img/icons/menu-icon.png");
 }
+
 /* header{
     background-color: #000;
     padding-top: 10px;
@@ -288,9 +289,7 @@ max-width: 100%;
        
     }
 
-    #logo-container{
-       
-    } */
+    
 
     .heading{
         border-bottom: 1px solid #000;
