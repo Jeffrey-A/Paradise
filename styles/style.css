@@ -8,6 +8,14 @@ html{
     box-sizing: border-box;
 }
 
+.overlay{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    z-index: 3;
+    background: rgba(0,0,0,0.4)
+}
+
 body{
     /* background-color: #ffe4bc; */
     background-color: #000;
@@ -100,11 +108,15 @@ header{
     welcome-section
 ################## */
 .carousel-caption {
-    bottom: 50%;
+    bottom: 40%;
 }
 
 .carousel-inner{
     height: 100vh;;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    z-index: 5;
 }
 
 
@@ -407,6 +419,10 @@ max-width: 100%;
 
     .bd-example{
         margin-top: 70px;
+    }
+
+    .overlay{
+        background-color: rgba(0,0,0,0.2)
     }
     /* .navbar {
         flex-wrap: nowrap;
