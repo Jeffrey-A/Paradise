@@ -14,7 +14,7 @@ body{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 /* ##################
    Navigation
@@ -31,6 +31,9 @@ img{
     color: red;
 }
 
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("../img/icons/menu-icon.png");
+}
 /* header{
     background-color: #000;
     padding-top: 10px;
@@ -87,6 +90,14 @@ img{
 /* ##################
     welcome-section
 ################## */
+.carousel-caption {
+    bottom: 50%;
+}
+
+.carousel-inner{
+    height: 100vh;;
+}
+
 
 
 .welcome-section{
