@@ -19,8 +19,19 @@ img{
 /* ##################
    Navigation
 ################## */
+.bg-dark {
+    background-color: #000!important;
+}
 
-header{
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+/* header{
     background-color: #000;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -71,7 +82,7 @@ header{
     text-decoration: none;
     display: block;
     color: #ffff;
-}
+} */
 
 /* ##################
     welcome-section
@@ -240,7 +251,7 @@ max-width: 100%;
 
 /* Tablets*/
 @media (min-width: 821px) { 
-    header{
+    /* header{
         position: fixed;
         top: 0;
         z-index: 1000;
@@ -268,7 +279,7 @@ max-width: 100%;
 
     #logo-container{
        
-    }
+    } */
 
     .heading{
         border-bottom: 1px solid #000;
@@ -276,21 +287,21 @@ max-width: 100%;
         font-size: 2.7rem;
         margin-bottom: 15px;
     }
-    #main-nav li{
+    /* #main-nav li{
         background-color:#000;
         margin: 0 10px;
        
-    }
+    } */
 
-    #main-nav .navlinks-active{
+    /* #main-nav .navlinks-active{
         color: #EB5526;
         text-decoration: underline;
-    }
+    } */
 
-    #main-nav a:hover{
+    /* #main-nav a:hover{
         color: #EB5526;
         text-decoration: underline;
-    }
+    } */
     
 
     main{
