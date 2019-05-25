@@ -16,12 +16,17 @@ body{
 img{
     max-width: 100%;
 }
+#logo{
+    height: 40px;
+}
 /* ##################
    Navigation
 ################## */
 .bg-dark {
     background-color: #000!important;
 }
+
+
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link {
     color: #fff;
@@ -35,7 +40,8 @@ img{
     background-image: url("../img/icons/menu-icon.png");
 }
 
-/* header{
+/* use by the other pages */
+header{
     background-color: #000;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -86,7 +92,9 @@ img{
     text-decoration: none;
     display: block;
     color: #ffff;
-} */
+}
+/* /--use by the other pages */
+
 
 /* ##################
     welcome-section
@@ -263,7 +271,8 @@ max-width: 100%;
 
 /* Tablets*/
 @media (min-width: 821px) { 
-    /* header{
+    /* use by the other pages */
+    header{
         position: fixed;
         top: 0;
         z-index: 1000;
@@ -297,21 +306,21 @@ max-width: 100%;
         font-size: 2.7rem;
         margin-bottom: 15px;
     }
-    /* #main-nav li{
+    #main-nav li{
         background-color:#000;
         margin: 0 10px;
        
-    } */
+    } 
 
-    /* #main-nav .navlinks-active{
+    #main-nav .navlinks-active{
         color: #EB5526;
         text-decoration: underline;
-    } */
+    } 
 
-    /* #main-nav a:hover{
+    #main-nav a:hover{
         color: #EB5526;
         text-decoration: underline;
-    } */
+    } 
     
 
     main{
@@ -319,7 +328,7 @@ max-width: 100%;
     }
 
    
-
+    /* --/use by the other pages */
     #about-image{
         width: 100%;
         
@@ -374,6 +383,32 @@ max-width: 100%;
         font-size: 4rem;
     }
 
+}
 
+@media (min-width: 768px) { 
+    .carousel-inner{
+        height: 100vh;;
+    }
 
+    .d-block {
+        height: 100vh;
+    }
+ }
+
+@media(max-width: 576px){
+    
+    .carousel-inner{
+        height: 50vh;;
+    }
+
+    .d-block {
+        height: 50vh;
+    }
+
+    .bd-example{
+        margin-top: 70px;
+    }
+    /* .navbar {
+        flex-wrap: nowrap;
+    } */
 }
