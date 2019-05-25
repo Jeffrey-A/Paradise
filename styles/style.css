@@ -7,6 +7,13 @@ html{
     padding: 0;
     box-sizing: border-box;
 }
+.navbar-dark .navbar-brand {
+    color: #EB5526 !important;
+    font-weight: 800;
+}
+.navbar-dark .navbar-brand img{
+    width: 40px;
+}
 
 .overlay{
     height: 100%;
@@ -144,6 +151,8 @@ header{
              0px 18px 23px rgba(0,0,0,0.1);
     font-size: 3rem;
     text-align: center;
+    text-decoration: underline;
+    z-index: 5;
 
 }
 /* ##################
@@ -161,6 +170,13 @@ header{
 
 #location-text p{
     padding-top: 10px;
+}
+#location .button{
+    background-color: #000;
+}
+
+#location .col-md-6{
+    padding:0;
 }
 
 
@@ -245,17 +261,20 @@ header{
     align-self: center;
     
 }
+.row {
+    overflow: hidden;
+}
 
 #menu-icon-container img{
 max-width: 100%;
 }
 
-.container{
+/* .container{
     margin-bottom: 50px;
     position: relative;
-}
+} */
 
-.text-container{
+/* .text-container{
     position: absolute;
     top: 0;
     width: 100%;
@@ -264,6 +283,20 @@ max-width: 100%;
     color: #fff;
     padding-left: 20px;
     padding-right: 20px;
+} */
+.text-container{
+    text-align: center;
+    position:static;
+    background-color: #fff;
+    color: #000;
+    background-image: linear-gradient(to right top, #000000, #30181d, #5b282e, #89393a, #b84d42, #cc5542, #df5e40, #f2683d, #f06337, #ef5f32, #ed5a2c, #eb5526);
+    padding: 20px  50px 0 ;
+    height: 450px;
+    
+}
+
+.text-container p,address{
+    font-size: 1.5rem;
 }
 
 .button{
@@ -354,32 +387,20 @@ max-width: 100%;
         font-size: 3rem;
     }
 
-    .container{
+    /* .container{
         position: static;
         width: 100%;
         display: flex;
         
-    }
+    } */
 
-
-    .text-container{
-        text-align: center;
-        position:static;
-        background-color: #fff;
-        color: #000;
-        background-image: linear-gradient(to right top, #000000, #30181d, #5b282e, #89393a, #b84d42, #cc5542, #df5e40, #f2683d, #f06337, #ef5f32, #ed5a2c, #eb5526);
-        padding: 20px  50px 0 ;
-        
-    }
-
-    .text-container p,address{
-        font-size: 1.5rem;
-    }
 
     
-    .div{
+
+    
+    /* .div{
         flex: 1;
-    }
+    } */
 
     .div img{
         height: 100%;
@@ -426,7 +447,8 @@ max-width: 100%;
     }
 
     .overlay{
-        background-color: rgba(0,0,0,0.2)
+        background-color: rgba(0,0,0,0.2);
+        height: 50vh;
     }
     /* .navbar {
         flex-wrap: nowrap;
