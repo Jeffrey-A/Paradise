@@ -49,38 +49,60 @@
         <div  id="reservation-page-content">
             <h2>Make a Reservation at Paradise</h2>
             <form action="#" method="post">
-                
-                <input type="text" placeholder="Name" class="reservation-input" required>
-                <input type="text" placeholder="Last Name" class="reservation-input" required>
-                
-                <input type="email" placeholder="Email" class="reservation-input" required>
-                <input type="tel" name="" id="" class="reservation-input" placeholder="Phone Number" required>
-                    
-                
-                <label for="date">Date:</label>
-                <input type="date"  value="2019-02-28" name="date" id="date" required>
+                <div class="row">
+                    <div class=" col-md-6 col-lg-4">
+                        <input type="text" placeholder="Name" class="reservation-input " required>
+                    </div>
 
-                <label for="ocation">Ocation:</label>
-                <select name="" id="ocation">
-                    <option value="">Normal</option>
-                    <option value="">Birthday</option>
-                    <option value="">Celebration</option>
-                    <option value="">Date Night</option>
-                    <option value="">Business Meal</option>
-                </select>
+                    <div class=" col-md-6 col-lg-4">
+                        <input type="text" placeholder="Last Name" class="reservation-input" required>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <input type="email" placeholder="Email" class="reservation-input" required>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <input type="tel" name="" id="" class="reservation-input" placeholder="Phone Number" required>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <label for="date">Date:</label>
+                        <input type="date"  value="2019-02-28" name="date" id="date" required>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <label for="ocation">Ocation:</label>
+                        <select name="" id="ocation">
+                            <option value="">Normal</option>
+                            <option value="">Birthday</option>
+                            <option value="">Celebration</option>
+                            <option value="">Date Night</option>
+                            <option value="">Business Meal</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                         <label for="num-people">Number of people:</label>
+                        <select name="" id="num-people">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6+</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <button id="reservation-button"type="submit">Reserve Table</button>
+                    </div>
+
+                </div>
+
                 
                 
-                <label for="num-people">Number of people:</label>
-                <select name="" id="num-people">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6+</option>
-                </select>
-                
-                <button id="reservation-button"type="submit">Reserve Table</button>
+               
                 
             </form>
         </div>
