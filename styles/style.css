@@ -66,6 +66,9 @@ header{
 /* ##################
     welcome-section
 ################## */
+/* #########################
+       CAROUSEL
+######################### */ 
 .carousel-caption {
     bottom: 40%;
 }
@@ -137,6 +140,9 @@ header{
     border-top: 1px solid #EB5526;
     margin-top: 50px;
 }
+#main-footer p{
+    color: #EB5526;
+}
 
 #main-footer ul{
     list-style: none;
@@ -152,7 +158,7 @@ header{
 }
 
 .footerlinks:hover{
-    color: #fff;
+    color: #EB5526;
 }
 
 .footer-links-container{
