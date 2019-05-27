@@ -203,6 +203,7 @@ header{
 
 .footerlinks{ 
     color: #d7d9dd;
+    text-decoration: underline;
 }
 
 .footerlinks:hover{
