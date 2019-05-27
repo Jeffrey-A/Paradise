@@ -270,21 +270,9 @@ header{
 max-width: 100%;
 }
 
-/* .container{
-    margin-bottom: 50px;
-    position: relative;
-} */
 
-/* .text-container{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(235, 85,38, .9);
-    color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-} */
+
+
 .text-container{
     text-align: center;
     position:static;
@@ -388,21 +376,6 @@ max-width: 100%;
         font-size: 3rem;
     }
 
-    /* .container{
-        position: static;
-        width: 100%;
-        display: flex;
-        
-    } */
-
-
-    
-
-    
-    /* .div{
-        flex: 1;
-    } */
-
     .div img{
         height: 100%;
     }
@@ -451,7 +424,5 @@ max-width: 100%;
         background-color: rgba(0,0,0,0.2);
         height: 50vh;
     }
-    /* .navbar {
-        flex-wrap: nowrap;
-    } */
+   
 }
